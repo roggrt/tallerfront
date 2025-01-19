@@ -12,11 +12,11 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const { data } = await axios.post('/auth/login', credentials);
+            const { data } = await axios.post('https://tallerback.onrender.com/api/auth/login', credentials);
             login(data.token);
             navigate('/dashboard');
         } catch (err) {
-            setError('Credenciales inválidas');
+            setError('Credenciales inválidasss');
         }
     };
 
@@ -69,7 +69,7 @@ const Login = () => {
                             type="submit"
                             className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                         >
-                            Iniciar Sesión
+                            Iniciar Sesión Render
                         </button>
                     </div>
                 </form>
