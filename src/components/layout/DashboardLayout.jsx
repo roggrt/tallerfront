@@ -226,7 +226,7 @@ const DashboardLayout = () => {
                     <footer className="ml-64 border-t border-gray-200 dark:border-gray-800">
                         <div className="px-6 py-2">
                             <p className="text-center text-xs text-gray-500 dark:text-gray-400">
-                                © {new Date().getFullYear()} Taller Tecnicentro
+                                © {new Date().getFullYear()} Taller Tecnicentro - Developed by Torisoftt
                             </p>
                         </div>
                     </footer>
