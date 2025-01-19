@@ -1,7 +1,14 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//     baseURL: 'http://localhost:3005/api',
+//     headers: {
+//         'Content-Type': 'application/json'
+//     }
+// });
+
 const api = axios.create({
-    baseURL: 'http://localhost:3005/api',
+    baseURL: 'https://tallerback.onrender.com/api',
     headers: {
         'Content-Type': 'application/json'
     }
